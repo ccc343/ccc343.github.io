@@ -3,6 +3,8 @@
 	<head>
 		<title>Cissy</title>
 		<link href="css/bootstrap.css" rel="stylesheet">
+		<link href="css/bootstrap-social.css" rel="stylesheet">
+		<link href="css/font-awesome.css" rel="stylesheet">
 		<link href="css/styles.css" rel="stylesheet">
 		<link href='https://fonts.googleapis.com/css?family=Montserrat|Raleway' rel='stylesheet' type='text/css'>
 	</head>
@@ -10,12 +12,53 @@
 		<script src="js/jquery.min.js"></script> <!-- jquery libraries -->
     	<script src="js/bootstrap.min.js"></script> <!-- bootsrap libraries -->
 
-    	<a href="index.html">
-	    	<span class="glyphicon glyphicon-home" aria-hidden="true"></span>
-	    </a>
+    	<div class="header-btns">
+			<a href="index.html">
+				<span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+			</a>
+		    <span class="social-btns">
+		    	<ul>
+		    		<li><a href="https://linkedin.com/in/cissychen" target="_blank" class="fa fa-3x fa-linkedin"></a></li>
+		    		<li><a href="https://github.com/ccc343" target="_blank" class="fa fa-3x fa-github"></a></li>
+		    		<li><a href="https://twitter.com/cissyc1" target="_blank" class="fa fa-3x fa-twitter"></a></li>
+		    	</ul>
+		    </span>
+		</div>
 
     	<div class="container home-title">
 			Code
+		</div>
+
+		<div class="container-fluid project-list">
+			<ul class="list-inline ">
+				<li class="col-md-4 col-xs-6">
+					<a href="code/walkme.html">
+						<div class="project">
+							<img class="project-icon" src="images/walkme.png" alt="walkme">
+							<div class="project-name">WalkMe</div>
+							<div class="project-description">safety-enhanced pedestrian routing</div>
+						</div>
+					</a>
+				</li>
+				<li class="col-md-4 col-xs-6">
+					<a href="code/copilot.html">
+						<div class="project">
+							<img class="project-icon" src="images/copilot.png" alt="copilot">
+							<div class="project-name">CoPilot</div>
+							<div class="project-description">collaborative web browsing</div>
+						</div>
+					</a>
+				</li>
+				<li class="col-md-4 col-xs-6">
+					<a href="code/pigeon.html">
+						<div class="project">
+							<img class="project-icon" src="images/pigeon.png" alt="pigeon">
+							<div class="project-name">Pigeon</div>
+							<div class="project-description">interest-tagged email for organizations</div>
+						</div>
+					</a>
+				</li>
+			</ul>
 		</div>
 
 		<div class="container-fluid list-buttons">
@@ -23,7 +66,7 @@
 			<span class="splitter">&squf;</span>
 			<span><a href="code.html" class="nav-link">code</a></span>
 			<span class="splitter">&squf;</span>
-			<span><a href="product.html" class="nav-link">product</a></span>
+			<span><a href="product.html" class="nav-link">products</a></span>
 			<span class="splitter">&squf;</span>
 			<span><a href="resume.pdf" class="nav-link">resume</a></span>
 		</div>

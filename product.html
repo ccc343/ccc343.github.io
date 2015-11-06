@@ -3,6 +3,8 @@
 	<head>
 		<title>Cissy</title>
 		<link href="css/bootstrap.css" rel="stylesheet">
+		<link href="css/bootstrap-social.css" rel="stylesheet">
+		<link href="css/font-awesome.css" rel="stylesheet">
 		<link href="css/styles.css" rel="stylesheet">
 		<link href='https://fonts.googleapis.com/css?family=Montserrat|Raleway' rel='stylesheet' type='text/css'>
 	</head>
@@ -10,12 +12,44 @@
 		<script src="js/jquery.min.js"></script> <!-- jquery libraries -->
     	<script src="js/bootstrap.min.js"></script> <!-- bootsrap libraries -->
 
-    	<a href="index.html">
-	    	<span class="glyphicon glyphicon-home" aria-hidden="true"></span>
-	    </a>
+    	<div class="header-btns">
+			<a href="index.html">
+				<span class="glyphicon glyphicon-home" aria-hidden="true"></span>
+			</a>
+		    <span class="social-btns">
+		    	<ul>
+		    		<li><a href="https://linkedin.com/in/cissychen" target="_blank" class="fa fa-3x fa-linkedin"></a></li>
+		    		<li><a href="https://github.com/ccc343" target="_blank" class="fa fa-3x fa-github"></a></li>
+		    		<li><a href="https://twitter.com/cissyc1" target="_blank" class="fa fa-3x fa-twitter"></a></li>
+		    	</ul>
+		    </span>
+		</div>
 
-    	<div class="container home-title">
-			Product
+		<div class="container home-title">
+			Products
+		</div>
+
+		<div class="container-fluid project-list">
+			<ul class="list-inline ">
+				<li class="col-md-7 col-xs-6">
+					<a href="code/clutch.html">
+						<div class="project">
+							<img class="project-icon" src="images/clutch.png" alt="clutch">
+							<div class="project-name">Clutch</div>
+							<div class="project-description">real-time customized shopping</div>
+						</div>
+					</a>
+				</li>
+				<li class="col-md-4 col-xs-6">
+					<a href="code/ushare.html">
+						<div class="project">
+							<img class="project-icon" src="images/ushare.png" alt="ushare">
+							<div class="project-name">uShare</div>
+							<div class="project-description">sharing your unused items</div>
+						</div>
+					</a>
+				</li>
+			</ul>
 		</div>
 
 		<div class="container-fluid list-buttons">
@@ -23,7 +57,7 @@
 			<span class="splitter">&squf;</span>
 			<span><a href="code.html" class="nav-link">code</a></span>
 			<span class="splitter">&squf;</span>
-			<span><a href="product.html" class="nav-link">product</a></span>
+			<span><a href="product.html" class="nav-link">products</a></span>
 			<span class="splitter">&squf;</span>
 			<span><a href="resume.pdf" class="nav-link">resume</a></span>
 		</div>
