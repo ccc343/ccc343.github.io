@@ -51,7 +51,12 @@ a {
 	text-decoration: none;
 }
 
-a:hover, a:focus{
+a:hover, a:focus {
+	color: #ffc400;
+	text-decoration: none;
+}
+
+.active{
 	color: #ffc400;
 	text-decoration: none;
 }
