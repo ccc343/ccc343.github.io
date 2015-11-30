@@ -1,0 +1,10 @@
+.project-icon{
+	height:50px;
+}
+
+.project-description{
+	font:inherit;
+	font-size: 13px;
+	color: black;
+	text-align: center;
+}
